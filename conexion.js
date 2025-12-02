@@ -2,7 +2,7 @@ const mysql = require("mysql2")
 
 //configuracion para la conexion a la base de datos
 const dbConfig = {
-    host:"localhost",
+    host:"https://sv11.byethost11.org:2083/cpsess8591958046/3rdparty/phpMyAdmin/index.php",
     user:"root",
     password: "",
     database:"db_inv_ti"

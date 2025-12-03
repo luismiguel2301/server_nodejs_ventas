@@ -2,10 +2,14 @@ const mysql = require("mysql2")
 
 //configuracion para la conexion a la base de datos
 const dbConfig = {
-    host:"https://sv11.byethost11.org:2083/cpsess8591958046/3rdparty/phpMyAdmin/index.php",
-    user:"root",
-    password: "",
-    database:"db_inv_ti"
+    const DB_SERVER="31.22.4.11";
+/* const DB_NAME="dem";
+const DB_USER="root";
+const DB_PASS=""; */
+const DB_NAME="curmayha_inventario";
+const DB_USER="curmayha_cur";
+const DB_PASS="luis2301+-";
+
 }
 
 const db = mysql.createConnection(dbConfig)

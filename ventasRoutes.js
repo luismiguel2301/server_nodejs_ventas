@@ -16,7 +16,7 @@ const { route } = require("./usuariosRoutes")
 
 //ruta para obtener las ventas en un 
 router.get("/ventas",(req,res)=>{
-    const {inicio,fin}=req.body
+    const {inicio,fin}=req.query
 
     if(!inicio || !fin){
         return res.status(400).send("Las fechas son requeridas")

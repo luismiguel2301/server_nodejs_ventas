@@ -16,7 +16,7 @@ app.use(cors())
 
 //middleware para analizar json
 app.use(express.json())
-app.use(bodyParser.json())
+//app.use(bodyParser.json())
 
 //importar el uso de las rutas
 app.use("/",usuariosRoutes)

@@ -10,12 +10,13 @@ const ventasRoutes = require("./ventasRoutes")
 
 //crear instancia de express
 const app = express();
+app.use(express.json())
 
 //permitir solicitudes de otros dominios
 app.use(cors())
 
 //middleware para analizar json
-app.use(express.json())
+
 //app.use(bodyParser.json())
 
 //importar el uso de las rutas

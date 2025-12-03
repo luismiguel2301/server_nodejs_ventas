@@ -25,7 +25,7 @@ app.use("/",productosRoutes)
 app.use("/",ventasRoutes)
 
 //iniciar el servidor
-const port = 3000
+const port = 10000
 app.listen(port, () =>{
     console.log(`Servidor en http://localhost:${port}`)
 })
